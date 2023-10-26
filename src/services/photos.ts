@@ -3,7 +3,6 @@ import { storage } from '../libs/firebase';
 import { ref, listAll, getDownloadURL, uploadBytes } from 'firebase/storage';
 import { v4 as createdId } from 'uuid';
 
-{/* Função para retornar todas as fotos */}
 export const getAll = async () => {
     let list: Photos[] = [];
 
